@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>הכלים של רותם קנון</title>
+    <title>ספריית הכלים של רותם קנון</title>
     <style>
         * {
             margin: 0;
@@ -79,7 +79,8 @@
             height: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center; /* מרכז את התמונה */
+            align-items: center;
+            padding-top: 1rem;
         }
 
         .project-card:hover {
@@ -88,11 +89,11 @@
 
         .project-image {
             width: 80%;
-            height: auto; /* שמירה על יחס התמונה */
-            object-fit: contain; /* תמונה ממוזגת בתוך המיכל */
-            max-height: 160px; /* גובה מרבי כדי לשמור על יחס */
-            display: block; /* מספק מרווח */
-            margin: 0 auto; /* מרכז את התמונה */
+            height: auto;
+            object-fit: contain;
+            max-height: 160px;
+            display: block;
+            margin: 0 auto;
         }
 
         .project-content {
@@ -100,21 +101,21 @@
             flex-grow: 1;
             display: flex;
             flex-direction: column;
-            align-items: center; /* מרכז את התוכן */
+            align-items: center;
         }
 
         .project-title {
             font-size: 1.25rem;
             margin-bottom: 0.5rem;
             color: #2d3436;
-            text-align: center; /* מרכז את הכותרת */
+            text-align: center;
         }
 
         .project-description {
             color: #636e72;
             margin-bottom: 1rem;
             flex-grow: 1;
-            text-align: center; /* מרכז את התיאור */
+            text-align: center;
         }
 
         .project-tags {
@@ -167,8 +168,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>הכלים של רותם קנון</h1>
-            <p>היי כאן רותם, פיתחתי מספר כלים שימושיים שיעזרו לכם בכל מיני מצבים</p>
+            <h1>ספריית הכלים של רותם קנון</h1>
+            <p>היי כאן רותם, ברוכים הבאים לספריית הכלים שלי. כאן תוכלו למצוא מגוון רחב של כלים שיעזרו לכם בפתרון בעיות, פשוטות ומורכבות יחדיו.  </p>
         </header>
 
         <div class="filters">
@@ -190,7 +191,7 @@
             // כמויות חיפושים
             {
                 title: "כמות חיפושים ב-SoundCloud",
-                description: "בדיקת כמות החיפושים והאזנות למוזיקה ב-SoundCloud",
+                description: "בדיקת כמות החיפושים ב-SoundCloud",
                 category: "search",
                 tags: ["כמויות חיפושים"],
                 link: "https://tools-by-rotem.github.io/soundcloud-search-volume",
@@ -198,7 +199,7 @@
             },
             {
                 title: "כמות חיפושים ב-Spotify",
-                description: "בדיקת כמות החיפושים והאזנות למוזיקה ב-Spotify",
+                description: "בדיקת כמות החיפושים ב-Spotify",
                 category: "search",
                 tags: ["כמויות חיפושים"],
                 link: "https://tools-by-rotem.github.io/spotify-search-volume",
